@@ -37,10 +37,11 @@ Let's write up a form with a text input and a button:
 	- The `action` attribute defines the location (URL) where the form's collected data should be sent when it is submitted. This is the built-in attribute that causes forms to reload a page, and the reason we often have to use ```preventDefault()``` when submitting data. If you decide to build a form without using ```<form>``` tags then you won't need ```preventDefault()``` later on. 
 
 - Add a text input to the html: `<input />`. Notice how this tag is self closing.
-	- ```inputs``` have have a ```type``` attribute. The most common is ```text```.
+	- ```inputs``` have a ```type``` attribute. The most common is ```text```.
 	- The ```value``` attribute keeps track of the content (or state) inside the input field. This will be very important later.
 	- ```autoFocus``` is an attribute that can be added to force focus to this specific input when the page loads.
-	- The ```autoComplete``` attribute can be set to 'on' or 'off', though it is 'on' by default. When it is 'on,' it will remember and suggest entries previously entered as the input value.
+  - The ```placeholder``` attribute is displayed in the field before the user enters a value. It is not the value of the input field - rather a hint as to what should be typed into the field.
+  
 - Add a ```<button></button>```
 	- Inside a form, a ```button``` and an ```<input type='submit'>``` can be used almost interchangeably. If you use a submit input for this exercise, be sure to assign it a specific class or ID so we can destinguish between inputs later on with JavaScript.
 - For good measure, let's create a ```<section>``` tag. This is where our to-do list will be rendered, so let's give it a class name 'todo-list'
