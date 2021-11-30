@@ -1,5 +1,7 @@
-// Grab all elements we will need to interact with
+// 1. NAME ELEMENTS YOU'RE SELECTING
 
-// Define event handler(s)
+// 2. CREATE A PLACE TO STORE DATA
 
-// Add event listener(s)
+// 3. DEFINE EVENT HANDLERS
+
+// 4. ADD EVENT LISTENERS
