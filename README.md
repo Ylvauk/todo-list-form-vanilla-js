@@ -88,8 +88,6 @@ If we've done this correctly, all items we enter into the input field should be 
 - [HTML Forms](https://www.youtube.com/watch?v=-5tH2qnTnH0&index=16&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J)
 
 #### Readings
-- [POST](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9.5)
-- [GET](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9.3)
 - [Select Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
 - [HTML Form Reference](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms)
 - [HTML Input Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
